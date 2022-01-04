@@ -1,0 +1,49 @@
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  background-image: url("/img/background.jpg");
+}
+h1,
+h5 {
+  font-family: "Almendra", serif;
+}
+p {
+  font-family: monospace;
+}
+
+@media only screen and (max-width: 400px) {
+  p {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 3rem;
+}
+
+header {
+  margin: 50px 20px;
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 0px;
+
+  margin: 1rem, 1rem, 1rem, 1rem;
+}
